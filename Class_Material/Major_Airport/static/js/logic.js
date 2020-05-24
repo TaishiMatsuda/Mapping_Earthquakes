@@ -32,7 +32,7 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Accessing the airport GeoJSON URL
-let airportData = "https://raw.githubusercontent.com/TaishiMatsuda/Mapping_Earthquakes/master/static/js/majorAirports.json"
+let airportData = "https://raw.githubusercontent.com/TaishiMatsuda/Mapping_Earthquakes/master/Class%20Material/Major_Airport/static/js/majorAirports.json"
 
 function onEachFeature(feature, layer) {
   layer.bindPopup("<h3>" + "Airport code: " + feature.properties.faa +
