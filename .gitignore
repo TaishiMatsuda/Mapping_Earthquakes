@@ -6,9 +6,6 @@ __pycache__/
 # Configuration file
 config.js
 
-# Class Contents
-Class_Material
-
 # C extensions
 *.so
 
