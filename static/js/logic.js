@@ -137,6 +137,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojs
 	legend.addTo(map);
 });
 
+// Retrieve the tectonic plate GeoJSON data.
 d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
 	console.log(data);
 	// Creating a GeoJSON layer with the retrieved data.
