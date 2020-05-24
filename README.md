@@ -17,3 +17,4 @@ Please note that for the earthquakes data, "Past Day" data was used instead of "
 ### Outcome
 As shown below, the map contains 3 types of map with 2 overlays for the earthquake data and the tectonic plate data.
 
+[screenshot](!https://github.com/TaishiMatsuda/Mapping_Earthquakes/blob/master/image/screenshot.png)
