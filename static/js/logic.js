@@ -145,3 +145,4 @@ d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/
 	}).addTo(tectonicPlate);
 	tectonicPlate.addTo(map);
 });
+	
